@@ -19,13 +19,13 @@ const App = () => {
                         <Budget />
                     </div>
                     <div className='col-sm'>
-                        <Currency />
-                    </div>
-                    <div className='col-sm'>
                         <RemainingBudget />
                     </div>
                     <div className='col-sm'>
                         <ExpenseTotal />
+                    </div>
+                    <div className='col-sm'>
+                        <Currency />
                     </div>
                 </div>
                 <h3 className='mt-3'>Allocation</h3>
